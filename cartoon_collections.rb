@@ -29,8 +29,6 @@ def find_the_cheese(cheese)# code an argument here
 cheese.find do |item|
     if cheese_types.include?(item)
       return item
-    else
-      return nil
     end
   end
 end
